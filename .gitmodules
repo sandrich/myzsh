@@ -1,0 +1,3 @@
+[submodule "themes/h-my-zsh-powerline-theme"]
+	path = themes/h-my-zsh-powerline-theme
+	url = https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme.git
