@@ -52,8 +52,10 @@ plugins=(git osx)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/texbin:/usr/local/Cellar/vim/7.4.052/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/chris/Development/android-sdk/platform-tools:/Users/chris/Development/android-sdk/tools:/Applications/Survex:$PATH
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/chris/Development/android-sdk/platform-tools:/Users/chris/Development/android-sdk/tools
 export TERM="screen-256color"
 
 alias zhaw='cd ~/Documents/ZHAW'
 alias dev='cd ~/Development'
+
+unsetopt correct_all
